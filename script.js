@@ -14,7 +14,7 @@ checkButton.addEventListener("click", () => {
   if (isPalindrome(textInput.value)) {
     results.textContent = `${textInput.value} is a palindrome`;
   } else {
-    results.textContent = `${textInput.value} is not a palindrome`;
+    results.textContent = `${textInput.value} is not a palindrome >:(`;
   }
 });
 
